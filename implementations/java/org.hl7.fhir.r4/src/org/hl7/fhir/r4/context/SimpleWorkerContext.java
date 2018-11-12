@@ -450,6 +450,11 @@ public class SimpleWorkerContext extends BaseWorkerContext implements IWorkerCon
       if (!set.contains(sd)) {
         result.add(sd);
         set.add(sd);
+        try {
+          generateSnapshot(sd);
+        } catch (Exception e) {
+          // what to do?
+        }
       }
     }
     return result;
