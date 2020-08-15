@@ -3,7 +3,7 @@
   <Author>Grahame</Author>
   <LastAuthor>Jose Costa Teixeira</LastAuthor>
   <Created>2012-03-19T11:12:07Z</Created>
-  <LastSaved>2020-04-30T07:32:18Z</LastSaved>
+  <LastSaved>2020-08-15T21:36:02Z</LastSaved>
   <Version>16.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -14,8 +14,8 @@
   
   
   
-  <ActiveSheet>1</ActiveSheet>
-  <RefModeR1C1/>
+  <ActiveSheet>14</ActiveSheet>
+  <FirstVisibleSheet>3</FirstVisibleSheet>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
  </ExcelWorkbook>
@@ -1004,11 +1004,16 @@
   <Style ss:ID="s194">
    <Font ss:Color="#333333" ss:FontName="Arial" ss:Size="12" x:Family="Swiss"/>
   </Style>
-  <Style ss:ID="s195">
+  <Style ss:ID="s195" ss:Parent="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s196">
    <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
    <Font ss:Color="#000000" ss:FontName="Calibri" ss:Size="11" x:Family="Swiss"/>
   </Style>
-  <Style ss:ID="s196">
+  <Style ss:ID="s197">
    <Alignment ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:LineStyle="Continuous" ss:Position="Bottom"/>
@@ -1018,7 +1023,7 @@
    </Borders>
    <Font ss:Color="#000000" ss:FontName="Calibri" ss:Size="11" x:Family="Swiss"/>
   </Style>
-  <Style ss:ID="s197">
+  <Style ss:ID="s198">
    <Alignment ss:Vertical="Top" ss:WrapText="1"/>
    <Borders>
     <Border ss:LineStyle="Continuous" ss:Position="Bottom"/>
@@ -1059,7 +1064,6 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
-   
    <ProtectObjects>False</ProtectObjects>
    <ProtectScenarios>False</ProtectScenarios>
    <x:PageLayoutZoom>0</x:PageLayoutZoom>
@@ -1421,7 +1425,7 @@
    <Row ss:AutoFitHeight="0" ss:Height="31">
     <Cell ss:StyleID="s106"><Data ss:Type="String">DeviceDefinition.type</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s97"><Data ss:Type="String">0..1</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s97"><Data ss:Type="String">0..*</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:Index="5" ss:StyleID="s97"><Data ss:Type="String">CodeableConcept</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:Index="7" ss:StyleID="s89"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s95"><Data ss:Type="String">DeviceKind</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -4615,18 +4619,16 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
-   
    <Print>
     <ValidPrinterInfo/>
     <HorizontalResolution>600</HorizontalResolution>
     <VerticalResolution>600</VerticalResolution>
    </Print>
    <Zoom>80</Zoom>
-   <Selected/>
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>16</TopRowBottomPane>
+   <TopRowBottomPane>1</TopRowBottomPane>
    <SplitVertical>1</SplitVertical>
    <LeftColumnRightPane>1</LeftColumnRightPane>
    <ActivePane>0</ActivePane>
@@ -5107,7 +5109,6 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
-   
    <Print>
     <ValidPrinterInfo/>
     <HorizontalResolution>600</HorizontalResolution>
@@ -5349,7 +5350,6 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
-   
    <Print>
     <ValidPrinterInfo/>
     <HorizontalResolution>600</HorizontalResolution>
@@ -5940,7 +5940,6 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
-   
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
@@ -6200,7 +6199,6 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
-   
    <Print>
     <ValidPrinterInfo/>
     <HorizontalResolution>600</HorizontalResolution>
@@ -6478,7 +6476,6 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
-   
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
@@ -6876,7 +6873,6 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
-   
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
@@ -6900,7 +6896,7 @@
    <NamedRange ss:Hidden="1" ss:Name="_FilterDatabase" ss:RefersTo="=Bindings!R1C1:R1C13"/>
   </Names>
   <Table ss:ExpandedColumnCount="13" ss:ExpandedRowCount="29" ss:StyleID="s134" x:FullColumns="1" x:FullRows="1">
-   <Column ss:StyleID="s134" ss:Width="115.0"/>
+   <Column ss:AutoFitWidth="0" ss:StyleID="s134" ss:Width="184.0"/>
    <Column ss:AutoFitWidth="0" ss:StyleID="s134" ss:Width="274.0"/>
    <Column ss:AutoFitWidth="0" ss:StyleID="s134" ss:Width="75.0"/>
    <Column ss:AutoFitWidth="0" ss:StyleID="s134" ss:Width="103.0"/>
@@ -6992,7 +6988,7 @@
     <Cell ss:StyleID="s89"><Data ss:Type="String">Codes for identifying device properties.   This is based upon IEEE/HCD specified codes</Data></Cell>
     <Cell ss:StyleID="s140"><Data ss:Type="String">code list</Data></Cell>
     <Cell ss:StyleID="s140"><Data ss:Type="String">extensible</Data></Cell>
-    <Cell ss:StyleID="s140"><Data ss:Type="String">#device-component-property</Data></Cell>
+    <Cell ss:StyleID="s140"><Data ss:Type="String">#devicedefinition-property-type</Data></Cell>
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s140"/>
@@ -7339,7 +7335,6 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
-   
    <Print>
     <ValidPrinterInfo/>
     <HorizontalResolution>600</HorizontalResolution>
@@ -7930,7 +7925,6 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
-   
    <Print>
     <ValidPrinterInfo/>
     <HorizontalResolution>600</HorizontalResolution>
@@ -8555,7 +8549,6 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
-   
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
@@ -9145,7 +9138,6 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
-   
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
@@ -9735,7 +9727,6 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
-   
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
@@ -10323,7 +10314,6 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
-   
    <Print>
     <ValidPrinterInfo/>
     <HorizontalResolution>600</HorizontalResolution>
@@ -10343,8 +10333,8 @@
   <AutoFilter xmlns="urn:schemas-microsoft-com:office:excel" x:Range="R1C1:R1C9">
   </AutoFilter>
  </Worksheet>
- <Worksheet ss:Name="device-component-property">
-  <Table ss:ExpandedColumnCount="10" ss:ExpandedRowCount="50" ss:StyleID="s159" x:FullColumns="1" x:FullRows="1">
+ <Worksheet ss:Name="devicedefinition-property-type">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="32" ss:StyleID="s159" x:FullColumns="1" x:FullRows="1">
    <Column ss:AutoFitWidth="0" ss:StyleID="s159" ss:Width="132.0"/>
    <Column ss:AutoFitWidth="0" ss:StyleID="s159" ss:Width="34.0"/>
    <Column ss:AutoFitWidth="0" ss:StyleID="s159" ss:Width="154.0"/>
@@ -10365,462 +10355,244 @@
     <Cell ss:StyleID="s126"><Data ss:Type="String">Committee Notes</Data><Comment ss:Author=""><ss:Data xmlns="http://www.w3.org/TR/REC-html40">        <Font html:Color="#000000" html:Face="Tahoma" html:Size="8" x:Family="Swiss">Additional notes about the code.  Not published</Font>       </ss:Data></Comment></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="Default"><Data ss:Type="Number">68219</Data></Cell>
-    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="s163"><Data ss:Type="Number">68073</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="Default"><Data ss:Type="String">urn:iso:std:iso:11073:10101</Data></Cell>
+    <Cell ss:StyleID="s173"/>
+    <Cell ss:StyleID="s153"><Data ss:Type="String">High-resolution relative time</Data></Cell>
+    <Cell ss:StyleID="s153"><Data ss:Type="String">High-resolution relative time</Data></Cell>
+    <Cell ss:StyleID="s153"/>
+    <Cell ss:StyleID="s153"/>
+    <Cell ss:StyleID="s164"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s163"><Data ss:Type="Number">67914</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="Default"><Data ss:Type="String">urn:iso:std:iso:11073:10101</Data></Cell>
+    <Cell ss:StyleID="s173"/>
+    <Cell ss:StyleID="s153"><Data ss:Type="String">Accuracy of Measurement</Data></Cell>
+    <Cell ss:StyleID="s153"><Data ss:Type="String">Accuracy of Measurement</Data></Cell>
+    <Cell ss:StyleID="s153"/>
+    <Cell ss:StyleID="s153"/>
+    <Cell ss:StyleID="s164"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s163"><Data ss:Type="Number">68221</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="Default"><Data ss:Type="String">urn:iso:std:iso:11073:10101</Data></Cell>
+    <Cell ss:StyleID="s173"/>
+    <Cell ss:StyleID="s153"><Data ss:Type="String">Time synchronization accuracy</Data></Cell>
+    <Cell ss:StyleID="s153"><Data ss:Type="String">Time synchronization accuracy</Data></Cell>
+    <Cell ss:StyleID="s153"/>
+    <Cell ss:StyleID="s153"/>
+    <Cell ss:StyleID="s164"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s163"><Data ss:Type="Number">68222</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="Default"><Data ss:Type="String">urn:iso:std:iso:11073:10101</Data></Cell>
+    <Cell ss:StyleID="s173"/>
+    <Cell ss:StyleID="s153"><Data ss:Type="String">Resolution of absolute time clock</Data></Cell>
+    <Cell ss:StyleID="s153"><Data ss:Type="String">Resolution of absolute time clock</Data></Cell>
+    <Cell ss:StyleID="s153"/>
+    <Cell ss:StyleID="s153"/>
+    <Cell ss:StyleID="s164"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s163"><Data ss:Type="Number">68226</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="Default"><Data ss:Type="String">urn:iso:std:iso:11073:10101</Data></Cell>
+    <Cell ss:StyleID="s173"/>
+    <Cell ss:StyleID="s153"><Data ss:Type="String">Resolution of Base offset time clock</Data></Cell>
+    <Cell ss:StyleID="s153"><Data ss:Type="String">Resolution of Base offset time clock</Data></Cell>
+    <Cell ss:StyleID="s153"/>
+    <Cell ss:StyleID="s153"/>
+    <Cell ss:StyleID="s164"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s163"><Data ss:Type="Number">68223</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="Default"><Data ss:Type="String">urn:iso:std:iso:11073:10101</Data></Cell>
+    <Cell ss:StyleID="s173"/>
+    <Cell ss:StyleID="s153"><Data ss:Type="String">Resolution of relative time clock </Data></Cell>
+    <Cell ss:StyleID="s153"><Data ss:Type="String">Resolution of relative time clock </Data></Cell>
+    <Cell ss:StyleID="s153"/>
+    <Cell ss:StyleID="s153"/>
+    <Cell ss:StyleID="s164"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s163"><Data ss:Type="Number">68224</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="Default"><Data ss:Type="String">urn:iso:std:iso:11073:10101</Data></Cell>
+    <Cell ss:StyleID="s173"/>
+    <Cell ss:StyleID="s153"><Data ss:Type="String">Resolution of high-resolution relative time clock</Data></Cell>
+    <Cell ss:StyleID="s153"><Data ss:Type="String">Resolution of high-resolution relative time clock</Data></Cell>
+    <Cell ss:StyleID="s153"/>
+    <Cell ss:StyleID="s153"/>
+    <Cell ss:StyleID="s164"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s163"><Data ss:Type="Number">68229</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="Default"><Data ss:Type="String">urn:iso:std:iso:11073:10101</Data></Cell>
+    <Cell ss:StyleID="s194"/>
+    <Cell ss:StyleID="s153"><Data ss:Type="String">Tick Resolution</Data></Cell>
+    <Cell ss:StyleID="s153"><Data ss:Type="String">Tick Resolution</Data></Cell>
+    <Cell ss:StyleID="s153"/>
+    <Cell ss:StyleID="s153"/>
+    <Cell ss:StyleID="s164"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s163"><Data ss:Type="Number">68193</Data></Cell>
+    <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="Default"><Data ss:Type="String">urn:iso:std:iso:11073:10101</Data></Cell>
-    <Cell ss:Index="5" ss:StyleID="Default"><Data ss:Type="String">MDC_TIME_CAP_STATE</Data></Cell>
-    <Cell ss:StyleID="s194"><Data ss:Type="String">Time capability</Data></Cell>
-    <Cell ss:StyleID="s172"/>
-    <Cell ss:StyleID="s150"/>
-    <Cell ss:StyleID="s150"/>
-    <Cell ss:StyleID="s162"/>
+    <Cell ss:StyleID="s194"/>
+    <Cell ss:StyleID="s153"><Data ss:Type="String">Supplemental types</Data></Cell>
+    <Cell ss:StyleID="s153"><Data ss:Type="String">Supplemental types</Data></Cell>
+    <Cell ss:StyleID="s153"/>
+    <Cell ss:StyleID="s153"/>
+    <Cell ss:StyleID="s164"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="Default"><Data ss:Type="Number">68220</Data></Cell>
-    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="s163"><Data ss:Type="Number">68220</Data></Cell>
+    <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="Default"><Data ss:Type="String">urn:iso:std:iso:11073:10101</Data></Cell>
-    <Cell ss:Index="5" ss:StyleID="Default"><Data ss:Type="String">MDC_TIME_SYNC_PROTOCOL</Data></Cell>
-    <Cell ss:StyleID="s194"><Data ss:Type="String">Time synchronization method</Data></Cell>
-    <Cell ss:StyleID="s173"/>
+    <Cell ss:StyleID="s194"/>
+    <Cell ss:StyleID="s153"><Data ss:Type="String">Time synchronization method</Data></Cell>
+    <Cell ss:StyleID="s153"><Data ss:Type="String">Time synchronization method</Data></Cell>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s164"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="Default"><Data ss:Type="Number">68221</Data></Cell>
-    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="s163"><Data ss:Type="Number">532353</Data></Cell>
+    <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="Default"><Data ss:Type="String">urn:iso:std:iso:11073:10101</Data></Cell>
-    <Cell ss:Index="5" ss:StyleID="Default"><Data ss:Type="String">MDC_TIME_SYNC_ACCURACY</Data></Cell>
-    <Cell ss:StyleID="s194"><Data ss:Type="String">The accuracy of the time synchronization</Data></Cell>
-    <Cell ss:StyleID="s173"/>
+    <Cell ss:StyleID="s194"/>
+    <Cell ss:StyleID="s153"><Data ss:Type="String">Continua certified PHD interfaces</Data></Cell>
+    <Cell ss:StyleID="s153"><Data ss:Type="String">Continua certified PHD interfaces</Data></Cell>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s164"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="Default"><Data ss:Type="Number">68222</Data></Cell>
-    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="s163"><Data ss:Type="Number">532355</Data></Cell>
+    <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="Default"><Data ss:Type="String">urn:iso:std:iso:11073:10101</Data></Cell>
-    <Cell ss:Index="5" ss:StyleID="Default"><Data ss:Type="String">MDC_TIME_RES_ABS</Data></Cell>
-    <Cell ss:StyleID="s194"><Data ss:Type="String">The resolution of the absolute time clock</Data></Cell>
+    <Cell ss:StyleID="s194"/>
+    <Cell ss:StyleID="s153"><Data ss:Type="String">Continua certified Health and Fitness interfaces</Data></Cell>
+    <Cell ss:StyleID="s153"><Data ss:Type="String">Continua certified Health and Fitness interfaces</Data></Cell>
+    <Cell ss:StyleID="s153"/>
+    <Cell ss:StyleID="s153"/>
+    <Cell ss:StyleID="s164"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s173"/>
+    <Cell ss:StyleID="s153"/>
+    <Cell ss:StyleID="s195"/>
+    <Cell ss:Index="5" ss:StyleID="s173"/>
     <Cell ss:StyleID="s173"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s164"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="Default"><Data ss:Type="Number">68223</Data></Cell>
-    <Cell ss:StyleID="Default"/>
-    <Cell ss:StyleID="Default"><Data ss:Type="String">urn:iso:std:iso:11073:10101</Data></Cell>
-    <Cell ss:Index="5" ss:StyleID="Default"><Data ss:Type="String">MDC_TIME_RES_REL</Data></Cell>
-    <Cell ss:StyleID="s194"><Data ss:Type="String">The resolution of the relative time clock</Data></Cell>
     <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s164"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="Default"><Data ss:Type="Number">68224</Data></Cell>
-    <Cell ss:StyleID="Default"/>
-    <Cell ss:StyleID="Default"><Data ss:Type="String">urn:iso:std:iso:11073:10101</Data></Cell>
-    <Cell ss:Index="5" ss:StyleID="Default"><Data ss:Type="String">MDC_TIME_RES_REL_HI_RES</Data></Cell>
-    <Cell ss:StyleID="s194"><Data ss:Type="String">The resolution of the high resolution time clock</Data></Cell>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s164"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="Default"><Data ss:Type="Number">68226</Data></Cell>
-    <Cell ss:StyleID="Default"/>
-    <Cell ss:StyleID="Default"><Data ss:Type="String">urn:iso:std:iso:11073:10101</Data></Cell>
-    <Cell ss:Index="5" ss:StyleID="Default"><Data ss:Type="String">MDC_TIME_RES_BO</Data></Cell>
-    <Cell ss:StyleID="s194"><Data ss:Type="String">The resolution of the base offset time clock</Data></Cell>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s164"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="Default"><Data ss:Type="Number">532353</Data></Cell>
-    <Cell ss:StyleID="Default"/>
-    <Cell ss:StyleID="Default"><Data ss:Type="String">urn:iso:std:iso:11073:10101</Data></Cell>
-    <Cell ss:Index="5" ss:StyleID="Default"><Data ss:Type="String">MDC_REG_CERT_DATA_CONTINUA_CERT_DEV_LIST</Data></Cell>
-    <Cell ss:StyleID="s194"><Data ss:Type="String">The specializations this device is certified for</Data></Cell>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s164"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="Default"><Data ss:Type="Number">532354</Data></Cell>
-    <Cell ss:StyleID="Default"/>
-    <Cell ss:StyleID="Default"><Data ss:Type="String">urn:iso:std:iso:11073:10101</Data></Cell>
-    <Cell ss:Index="5" ss:StyleID="Default"><Data ss:Type="String">MDC_REG_CERT_DATA_CONTINUA_REG_STATUS</Data></Cell>
-    <Cell ss:StyleID="s194"><Data ss:Type="String">The regulation type and status this device has</Data></Cell>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s164"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="Default"><Data ss:Type="Number">532355</Data></Cell>
-    <Cell ss:StyleID="Default"/>
-    <Cell ss:StyleID="Default"><Data ss:Type="String">urn:iso:std:iso:11073:10101</Data></Cell>
-    <Cell ss:Index="5" ss:StyleID="Default"><Data ss:Type="String">MDC_REG_CERT_DATA_CONTINUA_PHG_CERT_LIST</Data></Cell>
-    <Cell ss:StyleID="s194"><Data ss:Type="String">The upload transactions this gateway has been certified for</Data></Cell>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s164"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s163"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s140"/>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s164"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s163"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s140"/>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s173"/>
+    <Cell ss:Index="5" ss:StyleID="s173"/>
     <Cell ss:StyleID="s173"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s164"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s163"/>
+    <Cell ss:StyleID="s173"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s140"/>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s173"/>
+    <Cell ss:Index="5" ss:StyleID="s173"/>
     <Cell ss:StyleID="s173"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s164"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s163"/>
+    <Cell ss:StyleID="s173"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s140"/>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s173"/>
+    <Cell ss:Index="5" ss:StyleID="s173"/>
     <Cell ss:StyleID="s173"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s164"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s163"/>
+    <Cell ss:StyleID="s194"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s140"/>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s164"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s163"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s140"/>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s164"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s163"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s140"/>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s164"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s163"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s140"/>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s164"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s163"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s140"/>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s173"/>
+    <Cell ss:Index="5" ss:StyleID="Default"/>
     <Cell ss:StyleID="Default"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s164"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s163"/>
+    <Cell ss:StyleID="s194"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s140"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="Default"/>
+    <Cell ss:Index="5" ss:StyleID="s194"/>
     <Cell ss:StyleID="s194"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s164"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s163"/>
+    <Cell ss:StyleID="s194"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s140"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s194"/>
+    <Cell ss:Index="5" ss:StyleID="s194"/>
     <Cell ss:StyleID="s194"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s164"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s163"/>
+    <Cell ss:StyleID="s194"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s140"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s194"/>
+    <Cell ss:Index="5" ss:StyleID="s194"/>
     <Cell ss:StyleID="s194"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s164"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s163"/>
+    <Cell ss:StyleID="s194"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s140"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s194"/>
+    <Cell ss:Index="5" ss:StyleID="s194"/>
     <Cell ss:StyleID="s194"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s164"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s163"/>
+    <Cell ss:StyleID="s194"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s140"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s194"/>
+    <Cell ss:Index="5" ss:StyleID="s194"/>
     <Cell ss:StyleID="s194"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s164"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s163"/>
+    <Cell ss:StyleID="s194"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s140"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s194"/>
+    <Cell ss:Index="5" ss:StyleID="s194"/>
     <Cell ss:StyleID="s194"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s164"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s163"/>
+    <Cell ss:StyleID="s194"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s140"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s164"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s163"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s140"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s164"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s163"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s140"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s164"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s163"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s140"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s164"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s163"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s140"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s164"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s163"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s140"/>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s164"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s163"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s140"/>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s164"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s163"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s140"/>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s164"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s163"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s140"/>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s173"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s164"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s163"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s140"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="Default"/>
-    <Cell ss:StyleID="Default"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s164"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s163"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s140"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s164"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s163"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s140"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s164"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s163"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s140"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s164"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s163"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s140"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s164"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s163"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s140"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s164"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s163"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s140"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s164"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:StyleID="s163"/>
-    <Cell ss:StyleID="s153"/>
-    <Cell ss:StyleID="s140"/>
-    <Cell ss:StyleID="s194"/>
-    <Cell ss:StyleID="s194"/>
+    <Cell ss:Index="5" ss:StyleID="s194"/>
     <Cell ss:StyleID="s194"/>
     <Cell ss:StyleID="s153"/>
     <Cell ss:StyleID="s153"/>
@@ -10900,6 +10672,13 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <Selected/>
    
    <ProtectObjects>False</ProtectObjects>
    <ProtectScenarios>False</ProtectScenarios>
@@ -11479,7 +11258,6 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
-   
    <FreezePanes/>
    <FrozenNoSplit/>
    <SplitHorizontal>1</SplitHorizontal>
@@ -12068,7 +11846,6 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
-   
    <Print>
     <ValidPrinterInfo/>
     <HorizontalResolution>600</HorizontalResolution>
@@ -12089,14 +11866,14 @@
   </AutoFilter>
  </Worksheet>
  <Worksheet ss:Name="device-nametype">
-  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="50" ss:StyleID="s195" x:FullColumns="1" x:FullRows="1">
-   <Column ss:AutoFitWidth="0" ss:StyleID="s195" ss:Width="133.0"/>
-   <Column ss:AutoFitWidth="0" ss:StyleID="s195" ss:Width="34.0"/>
-   <Column ss:AutoFitWidth="0" ss:StyleID="s195" ss:Width="154.0"/>
-   <Column ss:AutoFitWidth="0" ss:Span="1" ss:StyleID="s195" ss:Width="79.0"/>
-   <Column ss:AutoFitWidth="0" ss:Index="6" ss:StyleID="s195" ss:Width="244.0"/>
-   <Column ss:AutoFitWidth="0" ss:Span="1" ss:StyleID="s195" ss:Width="84.0"/>
-   <Column ss:AutoFitWidth="0" ss:Index="9" ss:StyleID="s195" ss:Width="241.0"/>
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="50" ss:StyleID="s196" x:FullColumns="1" x:FullRows="1">
+   <Column ss:AutoFitWidth="0" ss:StyleID="s196" ss:Width="133.0"/>
+   <Column ss:AutoFitWidth="0" ss:StyleID="s196" ss:Width="34.0"/>
+   <Column ss:AutoFitWidth="0" ss:StyleID="s196" ss:Width="154.0"/>
+   <Column ss:AutoFitWidth="0" ss:Span="1" ss:StyleID="s196" ss:Width="79.0"/>
+   <Column ss:AutoFitWidth="0" ss:Index="6" ss:StyleID="s196" ss:Width="244.0"/>
+   <Column ss:AutoFitWidth="0" ss:Span="1" ss:StyleID="s196" ss:Width="84.0"/>
+   <Column ss:AutoFitWidth="0" ss:Index="9" ss:StyleID="s196" ss:Width="241.0"/>
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s178"><Data ss:Type="String">Code</Data><Comment ss:Author=""><ss:Data xmlns="http://www.w3.org/TR/REC-html40">        <Font html:Color="#000000" html:Face="Tahoma" html:Size="8" x:Family="Swiss">The code to be sent over the wire</Font>       </ss:Data></Comment></Cell>
     <Cell ss:StyleID="s179"><Data ss:Type="String">Id</Data><Comment ss:Author=""><ss:Data xmlns="http://www.w3.org/TR/REC-html40">        <Font html:Color="#000000" html:Face="Tahoma" html:Size="8" x:Family="Swiss">Unique number for the code.  Required when System is not specified, not permitted otherwise</Font>       </ss:Data></Comment></Cell>
@@ -12109,67 +11886,67 @@
     <Cell ss:StyleID="s180"><Data ss:Type="String">Committee Notes</Data><Comment ss:Author=""><ss:Data xmlns="http://www.w3.org/TR/REC-html40">        <Font html:Color="#000000" html:Face="Tahoma" html:Size="8" x:Family="Swiss">Additional notes about the code.  Not published</Font>       </ss:Data></Comment></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
-    <Cell ss:StyleID="s196"><Data ss:Type="String">udi-label-name</Data></Cell>
-    <Cell ss:StyleID="s197"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s197"><Data ss:Type="String">udi-label-name</Data></Cell>
+    <Cell ss:StyleID="s198"><Data ss:Type="Number">1</Data></Cell>
     <Cell ss:StyleID="s183"/>
-    <Cell ss:StyleID="s197"/>
-    <Cell ss:StyleID="s197"><Data ss:Type="String">UDI Label name</Data></Cell>
-    <Cell ss:StyleID="s197"><Data ss:Type="String">UDI Label name</Data></Cell>
+    <Cell ss:StyleID="s198"/>
+    <Cell ss:StyleID="s198"><Data ss:Type="String">UDI Label name</Data></Cell>
+    <Cell ss:StyleID="s198"><Data ss:Type="String">UDI Label name</Data></Cell>
     <Cell ss:StyleID="s182"/>
     <Cell ss:StyleID="s182"/>
     <Cell ss:StyleID="s185"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
-    <Cell ss:StyleID="s196"><Data ss:Type="String">user-friendly-name</Data></Cell>
-    <Cell ss:StyleID="s197"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s197"><Data ss:Type="String">user-friendly-name</Data></Cell>
+    <Cell ss:StyleID="s198"><Data ss:Type="Number">2</Data></Cell>
     <Cell ss:StyleID="s183"/>
-    <Cell ss:StyleID="s197"/>
-    <Cell ss:StyleID="s197"><Data ss:Type="String">User Friendly name</Data></Cell>
-    <Cell ss:StyleID="s197"><Data ss:Type="String">The 'user friendly name' typically is the name of the device on the package it came in or some combination of that name with the model number, serial number, or other attribute that makes the name easy to understand for the user of that device. It is often exposed in communicating devices transport protocols. It is provided to help users identify the device when reported in discovery operations</Data></Cell>
+    <Cell ss:StyleID="s198"/>
+    <Cell ss:StyleID="s198"><Data ss:Type="String">User Friendly name</Data></Cell>
+    <Cell ss:StyleID="s198"><Data ss:Type="String">The 'user friendly name' typically is the name of the device on the package it came in or some combination of that name with the model number, serial number, or other attribute that makes the name easy to understand for the user of that device. It is often exposed in communicating devices transport protocols. It is provided to help users identify the device when reported in discovery operations</Data></Cell>
     <Cell ss:StyleID="s182"/>
     <Cell ss:StyleID="s182"/>
     <Cell ss:StyleID="s185"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
-    <Cell ss:StyleID="s196"><Data ss:Type="String">patient-reported-name</Data></Cell>
-    <Cell ss:StyleID="s197"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s197"><Data ss:Type="String">patient-reported-name</Data></Cell>
+    <Cell ss:StyleID="s198"><Data ss:Type="Number">3</Data></Cell>
     <Cell ss:StyleID="s183"/>
-    <Cell ss:StyleID="s197"/>
-    <Cell ss:StyleID="s197"><Data ss:Type="String">Patient Reported name</Data></Cell>
-    <Cell ss:StyleID="s197"><Data ss:Type="String">A name as provided by a patient of the device, for example "knee implant", when documenting, e.g., self-reported device</Data></Cell>
+    <Cell ss:StyleID="s198"/>
+    <Cell ss:StyleID="s198"><Data ss:Type="String">Patient Reported name</Data></Cell>
+    <Cell ss:StyleID="s198"><Data ss:Type="String">A name as provided by a patient of the device, for example "knee implant", when documenting, e.g., self-reported device</Data></Cell>
     <Cell ss:StyleID="s182"/>
     <Cell ss:StyleID="s182"/>
     <Cell ss:StyleID="s185"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
-    <Cell ss:StyleID="s196"><Data ss:Type="String">manufacturer-name</Data></Cell>
-    <Cell ss:StyleID="s197"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s197"><Data ss:Type="String">manufacturer-name</Data></Cell>
+    <Cell ss:StyleID="s198"><Data ss:Type="Number">4</Data></Cell>
     <Cell ss:StyleID="s183"/>
-    <Cell ss:StyleID="s197"/>
-    <Cell ss:StyleID="s197"><Data ss:Type="String">Manufacturer name</Data></Cell>
-    <Cell ss:StyleID="s197"><Data ss:Type="String">The formal name as provided by the manufacturer of the device</Data></Cell>
+    <Cell ss:StyleID="s198"/>
+    <Cell ss:StyleID="s198"><Data ss:Type="String">Manufacturer name</Data></Cell>
+    <Cell ss:StyleID="s198"><Data ss:Type="String">The formal name as provided by the manufacturer of the device</Data></Cell>
     <Cell ss:StyleID="s182"/>
     <Cell ss:StyleID="s182"/>
     <Cell ss:StyleID="s185"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
-    <Cell ss:StyleID="s196"><Data ss:Type="String">model-name</Data></Cell>
-    <Cell ss:StyleID="s197"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s197"><Data ss:Type="String">model-name</Data></Cell>
+    <Cell ss:StyleID="s198"><Data ss:Type="Number">5</Data></Cell>
     <Cell ss:StyleID="s183"/>
-    <Cell ss:StyleID="s197"/>
-    <Cell ss:StyleID="s197"><Data ss:Type="String">Model name</Data></Cell>
-    <Cell ss:StyleID="s197"><Data ss:Type="String">The name of the model. The manufacturer-name or user-friendly-name may include that as a component</Data></Cell>
+    <Cell ss:StyleID="s198"/>
+    <Cell ss:StyleID="s198"><Data ss:Type="String">Model name</Data></Cell>
+    <Cell ss:StyleID="s198"><Data ss:Type="String">The name of the model. The manufacturer-name or user-friendly-name may include that as a component</Data></Cell>
     <Cell ss:StyleID="s182"/>
     <Cell ss:StyleID="s182"/>
     <Cell ss:StyleID="s185"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="30">
-    <Cell ss:StyleID="s196"><Data ss:Type="String">other</Data></Cell>
-    <Cell ss:StyleID="s197"><Data ss:Type="Number">6</Data></Cell>
-    <Cell ss:StyleID="s183"/>
-    <Cell ss:StyleID="s197"/>
     <Cell ss:StyleID="s197"><Data ss:Type="String">other</Data></Cell>
-    <Cell ss:StyleID="s197"><Data ss:Type="String">other</Data></Cell>
+    <Cell ss:StyleID="s198"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s183"/>
+    <Cell ss:StyleID="s198"/>
+    <Cell ss:StyleID="s198"><Data ss:Type="String">other</Data></Cell>
+    <Cell ss:StyleID="s198"><Data ss:Type="String">other</Data></Cell>
     <Cell ss:StyleID="s182"/>
     <Cell ss:StyleID="s182"/>
     <Cell ss:StyleID="s185"/>
@@ -12654,8 +12431,6 @@
     <Footer x:Margin="0.3"/>
     <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
    </PageSetup>
-   
-   
    <ProtectObjects>False</ProtectObjects>
    <ProtectScenarios>False</ProtectScenarios>
   </WorksheetOptions>
