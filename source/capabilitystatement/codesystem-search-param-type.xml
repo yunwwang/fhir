@@ -158,7 +158,7 @@
           
           <td>Special</td>
           
-          <td>Special logic applies to this parameter per the description of the search parameter.</td>
+          <td>Special logic applies to this parameter per the description of the search parameter. A SearchParameter SHOULD be marked as special if no other type applies.</td>
         
         </tr>
       
